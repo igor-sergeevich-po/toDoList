@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     height: 100%;
-    background-color: cadetblue;
+    background-color: rgb(168, 191, 192);
     font-family: 'Oswald', sans-serif;
 }
 
@@ -22,7 +22,7 @@ h1 {
     width: 500px;
     min-height: 40px;
     align-items: center;
-    background-color: darkgoldenrod;
+    background-color: rgb(11, 184, 126);
     border-radius: 5px;
     padding: 10px;
 }
@@ -44,7 +44,7 @@ h1 {
 
 .button-wrapper button {
     width: 80%;
-    background-color: springgreen;
+    background-color: rgb(47, 122, 85);
     color: #ffffff;
     outline: none;
     border: none;
@@ -90,4 +90,23 @@ h1 {
     width: 25px;
     height: 25px;
     cursor: pointer;
+}
+
+.buttons button {
+    outline: none;
+    border: none;
+    background-color: crimson;
+    color: #ffffff;
+    cursor: pointer;
+    height: 25px;
+    border-radius: 5px;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
